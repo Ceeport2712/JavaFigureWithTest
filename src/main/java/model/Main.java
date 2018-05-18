@@ -6,4 +6,5 @@ public class Main {
         System.out.println(triangle.toString());
         System.out.println("Периметр фигуры равен " + triangle.getPerimeter());
     }
+
 }
