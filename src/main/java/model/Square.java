@@ -23,7 +23,7 @@ public class Square extends Rectangle {
     }
 
     private boolean validate(double firstSide, double secondSide, double thirdSide, double fourthSide){
-        return (firstSide + secondSide > thirdSide + fourthSide);
+        return (firstSide + secondSide >= thirdSide + fourthSide);
     }
 
     @Override
